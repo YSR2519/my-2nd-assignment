@@ -76,6 +76,27 @@ align-items: center;
   font-weight: 700;
   font-size: 3.125rem;
  }
+ .card{
+  width: 270px;
+  
+ } 
+ /* grid */
+ .grid-card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+ }
+ .card-name{
+  width: 270px;
+  text-align: center;
+ } 
+ .card-btn{
+  width: 270px;
+  height: 50px;
+  color: white;
+  background-color: #E95A08;
+  border: none;
+ }
 
 
 /* Responsive media quary */
