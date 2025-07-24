@@ -153,6 +153,32 @@ align-items: center;
   text-decoration: underline;
   font-weight: bold;
 }
+/* storage-section */
+.storage-section{
+  width: 1140px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+.badge{
+  
+ margin-left: 150px;
+  margin-bottom: -50px;
+}
+.badge img{
+  height: 240px;
+  width: 240px;
+}
+/* .flowewr-store-img{
+  width: 500px;
+} */
+.right-part h2{
+  font-weight: 700;
+  font-size: 3.125rem;
+}
 /* search style */
 .branch {
   background: url('../assets/news-letter-bg.png');
