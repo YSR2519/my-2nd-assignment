@@ -41,9 +41,7 @@
 .navber{
 align-items: center;
 }
-.links{
-  
-}
+
 .links li {
   list-style: none;
 }
@@ -155,7 +153,67 @@ align-items: center;
   text-decoration: underline;
   font-weight: bold;
 }
-
+/* search style */
+.branch {
+  background: url('../assets/news-letter-bg.png');
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.input-space{
+  height: 45px;
+  width: 600px;
+}
+.btn-bg{
+  background-color: #E95A08;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 180px;
+}
+/* footer styles */
+footer>li {
+  list-style: none;
+}
+footer> li a{
+  text-decoration: none;
+  
+}
+.footer-style{
+  width: 1140px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* padding: 30px;  */
+  justify-content: center;
+  align-content: center;
+  
+}
+.featurs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.featurs-item ul li{
+ list-style: none;
+}
+.featurs-item li a{
+  text-decoration: none;
+}
+.featurs-item2 ul li{
+  list-style: none;
+}
+.featurs-item2 li a{
+  text-decoration: none;
+}
+ .featurs-icon{
+  margin: 10px;
+  justify-content: space-around;
+} 
 
 /* Responsive media quary */
 
