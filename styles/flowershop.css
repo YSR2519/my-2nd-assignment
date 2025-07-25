@@ -63,6 +63,9 @@ align-items: center;
 .banner-bottom{
   margin-top:0px;
 }
+.banner-img{
+  max-width: 100%;
+}
  /* -- Plants Section -- */
  .our-plants{
   margin-top: 50px;
@@ -243,24 +246,220 @@ footer> li a{
 
 /* Responsive media quary */
 
-@media  screen and (max-width:576px) {
-  .header{
-    margin:  0 2px 0 2px;
+@media screen and (max-width: 576px) {
+  /* Container */
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
   }
-  .navber,.banner-item,.banner{
+
+  /* Header */
+  .header {
+    margin: 0 15px;
+  }
+
+  /* Navbar */
+  .navber {
     flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
-  .links{
-    visibility: hidden;
+
+  .nav-logo img {
+    width: 150px;
+    height: auto;
   }
-  .banner{
+
+  .links {
+    display: none; 
+  }
+
+  /* Banner Section */
+  .banner {
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .banner-item {
+    padding: 10px 0;
+  }
+
+  .banner-item h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .banner-item p {
+    font-size: 0.9rem;
+    color: #8987A1;
+  }
+
+  .banner-img img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Our Plants Section */
+  .grid-card {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin-top: 0px;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
-.banner-img{
-  max-width: 100%;
 
+  .card {
+    width: 100%; 
+  }
+
+  .card-name h2 {
+    font-size: 1.1rem;
+  }
+
+  .card-name h3 {
+    font-size: 1rem;
+  }
+
+  .card-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+
+  /* Storage Section */
+  .storage-section > div.display-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .badge {
+    margin-left: 0;
+  }
+
+  .badge img {
+    width: 160px;
+    height: auto;
+  }
+
+  .flowewr-store-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .right-part h2 {
+    font-size: 2rem;
+  }
+
+  .right-part ul {
+    padding: 0 10px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  /* Latest Deals Section */
+  .deals-title h2 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .deals-title p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+  }
+
+  .collage-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .left-img,
+  .right-img {
+    display: block;
+  }
+
+  .collage-1 {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .collage-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .layout {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  /* Join the colorful Bunch Section */
+  .branch {
+    height: auto;
+    padding: 30px 15px;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .branch h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .input-space {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+
+  .btn-bg {
+    width: 100%;
+    max-width: 350px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  .footer-style {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+    height: auto;
+    text-align: center;
+  }
+
+  .featurs {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .featurs-item ul,
+  .featurs-item2 ul {
+    padding: 0;
+  }
+
+  .featurs-item li,
+  .featurs-item2 li {
+    margin-bottom: 10px;
+  }
+
+  .featurs-icon img {
+    width: 30px;
+    margin: 0 5px;
+  }
 }
 
-}
+
